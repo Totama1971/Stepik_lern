@@ -1,2 +1,2 @@
 # Stepik_lern
-xbvncb,vbm.,
+Учебный проект из другого курса Flask Python.
