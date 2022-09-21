@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Название вкладки</title>
+		<link rel='stylesheet' href='{{url_for('static',filename='style.css')}}'>
+	</head>
+<body>
+	<h1 align="center">Задание</h1>
+		<p>Какой-то текст в абзаце. И зачем-то следующее слово решили<br>перенести.</p>
+		<img src="https://cherepah.ru/wp-content/uploads/9/c/c/9ccd0f50f0a5a26f6a3fbdebc2fbb92e.jpe" width='150' height='150'>
+	<div>
+  		<input type="radio" id="python" name="language" checked>
+  		<label for="python">Python</label>
+	</div>
+	<div>
+  		<input type="radio" id="java" name="language">
+  		<label for="java">Java</label>
+	</div>
+
+	<img src='https://avatars.mds.yandex.net/get-zen_doc/5221947/pub_6117bb937e37175eb6409d6b_6117bc4e6eab3f04dedc5031/scale_1200'width='150' height='150'>
+	<label for="dropdown">Выберите язык программирования:</label>
+	<select id="dropdown" class="custom-select">
+ 	<option selected>--</option>
+ 		<option value="1">Python</option>
+ 		<option value="2">Java</option>
+ 		<option value="3">JavaScript</option>
+	</select>
+         <ul>
+		<li>Какой-то пункт</li>
+		<li>И еще один</li>
+        </ul>
+		<img src="https://stepik.org/static/frontend/topbar_logo.svg" width='150' height='150' alt="Ссылка на stepik.org" >
+        	<a href=https://stepik.org > 
+            	'<img src="https://stepik.org/static/frontend/topbar_logo.svg" width='150' height='150'>'  
+        </a> 
+        <hr>
+        <ol>
+            <li>Это первый пункт </li>
+            <li>А это второй</li>
+            <li>Но может быть и третий</li>
+        </ol>
+		<audio src='{{url_for('static',filename='img/2.png' )}}'>
+
+	
+	</body>
+</html> 
+
